@@ -8,8 +8,16 @@ const styles = makeStyles({
         marginTop: "3rem",
         height: "calc(100vh - 19.0625rem)",
         textAlign: "center",
-        marginBottom: "12rem",
+        marginBottom: "9rem",
     },
+    signUp: {
+        margin: "1rem",
+      },
+      login: {
+        textDecoration: 'none',
+        fontWeight: '600',
+        paddingLeft : '0.5rem'
+      }  
   });
 
 const Signup = () => {
