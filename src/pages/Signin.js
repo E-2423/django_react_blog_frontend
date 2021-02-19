@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button, TextField, Grid, Container } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Formik } from "formik";
@@ -23,7 +23,8 @@ const initialValues = {
 
 const Signin = () => {
 
-    const signinStyles = styles();  
+    const signinStyles = styles();
+    //const { setLoggedIn } = useContext(AuthContext);  
      
 
     return(
